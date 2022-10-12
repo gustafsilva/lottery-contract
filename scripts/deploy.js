@@ -82,7 +82,7 @@ const main = async () => {
     );
 
     // Final set up of contracts
-    await lotteryInstance.init(
+    await lotteryInstance.initialize(
         lotteryNftInstance.address,
         randGenInstance.address
     );
